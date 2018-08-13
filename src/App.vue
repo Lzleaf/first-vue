@@ -1,0 +1,26 @@
+<template>
+  <div id="draw">
+    <img src="./assets/logo.png">
+    <h1>Welcome to VuejsCaff.com</h1>
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'App',
+  components: {
+  }
+}
+</script>
+
+<style>
+#draw {
+  font-family: '隶书', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 200px;
+}
+</style>
